@@ -11,7 +11,7 @@ export default function Results() {
 
 
     return (
-        <section>
+        <section className='flex justify-center items-center flex-col pt-8'>
             <h1 className='blue_gradient font-bold text-2xl'>Add team</h1>
             <form
             onSubmit={handleSubmit}

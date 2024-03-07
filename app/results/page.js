@@ -20,7 +20,7 @@ export default function Results() {
     useEffect(() => {
         // Fetch vote counts from the database
         // Placeholder logic
-        setResults([{ team: 'Team A', votes: 10 }, { team: 'Team B', votes: 7 }, { team: 'Team C', votes: 11 }, { team: 'Team d', votes: 4 }, ]); // Replace with actual API call
+        setResults([{ team: 'Team Alpha', votes: 10 }, { team: 'Team Beta', votes: 7 }, { team: 'Team Gamma', votes: 11 }, { team: 'Team d', votes: 4 }, ]); // Replace with actual API call
     }, []);
 
     return (
